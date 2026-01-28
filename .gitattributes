@@ -1,0 +1,28 @@
+# Flutter / Dart
+*.dart linguist-language=Dart
+
+# Ignorar código generado de Flutter
+**/.dart_tool/** linguist-generated=true
+**/build/** linguist-generated=true
+
+# Android
+**/android/** linguist-generated=true
+**/android/** linguist-vendored=true
+
+# iOS
+**/ios/** linguist-generated=true
+**/ios/** linguist-vendored=true
+
+# Web
+**/web/** linguist-generated=true
+
+# Desktop (Windows / Linux / macOS)
+**/windows/** linguist-generated=true
+**/windows/** linguist-vendored=true
+**/linux/** linguist-generated=true
+**/linux/** linguist-vendored=true
+**/macos/** linguist-generated=true
+**/macos/** linguist-vendored=true
+
+# Tests generados
+**/*_test.dart linguist-generated=false
